@@ -4,8 +4,8 @@
   "name": "VuArchives",
   "colors": {
     "primary": "#516CA9",
-    "light": "#95b6bd",
-    "dark": "#658a95"
+    "light": "#516CA9",
+    "dark": "#516CA9"
   },
   "favicon": "/favicon.svg",
   "navigation": {
@@ -14,22 +14,22 @@
         "tab": "Guides",
         "groups": [
           {
-            "group": "Get Started",
+            "group": "Home",
             "pages": [
               "index",
-              "quickstart",
-              "development"
+              "premium"            
             ]
           },
           {
-            "group": "Essentials",
+            "group": "Tools",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
+              "tools/historical-room-viewer",
+              "tools/historical-live-room-viewer",
+              "tools/historical-duo-room-viewer",
+              "tools/historical-vu-profile-viewer",
+              "tools/time-tracker",
+              "tools/historical-avatar-outfit-viewer",
+              "tools/historical-avatar-name-viewer"
             ]
           }
         ]
