@@ -28,7 +28,7 @@
               "tools/historical-room-viewer",
               "tools/historical-live-room-viewer",
               "tools/historical-duo-room-viewer",
-              "tools/historical-vu-profile-viewer",
+              "tools/historical-profile-viewer",
               "tools/time-tracker",
               "tools/historical-avatar-outfit-viewer",
               "tools/historical-avatar-name-viewer"
@@ -37,21 +37,12 @@
         ]
       },
       {
-        "tab": "API Reference",
+        "tab": "FAQ",
         "groups": [
           {
-            "group": "API Documentation",
+            "group": "Frequent Asked Questions",
             "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint Examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "faq"
             ]
           }
         ]
@@ -86,6 +77,7 @@
   },
   "footer": {
     "socials": {
+      "website": "https://vuarchives.com",
       "discord": "https://discord.gg/sDKpD4knJd"
     }
   }
