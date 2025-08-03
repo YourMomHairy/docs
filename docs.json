@@ -26,8 +26,6 @@
             "group": "Tools",
             "pages": [
               "tools/historical-room-viewer",
-              "tools/historical-live-room-viewer",
-              "tools/historical-duo-room-viewer",
               "tools/historical-profile-viewer",
               "tools/time-tracker",
               "tools/historical-avatar-outfit-viewer",
