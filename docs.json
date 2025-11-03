@@ -33,7 +33,8 @@
           {
             "group": "Premium Tools",
             "pages": [
-              "premium-tools/product-extractor"
+              "premium-tools/product-extractor",
+              "premium-tools/private-room-viewer"
             ]
           }
         ]
