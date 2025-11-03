@@ -17,9 +17,7 @@
           {
             "group": "Home",
             "pages": [
-              "index",
-              "premium",
-              "admin-tools"        
+              "index"
             ]
           },
           {
