@@ -31,6 +31,12 @@
               "tools/historical-avatar-outfit-viewer",
               "tools/historical-avatar-name-viewer"
             ]
+          },
+          {
+            "group": "Premium Tools",
+            "pages": [
+              "premium-tools/product-extractor"
+            ]
           }
         ]
       },
