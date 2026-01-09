@@ -1,87 +1,117 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "VuArchives",
-  "description": "Start uncovering secrets from VuArchives.com",
+  "name": "Documentation - VuArchives",
   "colors": {
-    "primary": "#516CA9",
-    "light": "#516CA9",
-    "dark": "#516CA9"
+    "primary": "#887BF6",
+    "light": "#887BF6",
+    "dark": "#887BF6"
   },
-  "favicon": "/favicon.svg",
+  "appearance": {
+    "default": "dark"
+  },
+  "styling": {
+    "codeblocks": "system",
+    "eyebrows": "breadcrumbs"
+  },
+  "favicon": "/logo.webp",
+  "errors": {
+    "404": {
+      "redirect": false
+    }
+  },
+  "interaction": {
+    "drilldown": false
+  },
+  "contextual": {
+    "options": [
+      "copy",
+      "view",
+      "chatgpt",
+      "claude",
+      "perplexity"
+    ]
+  },
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Documentation",
         "groups": [
           {
             "group": "Home",
             "pages": [
-              "index"
+              "docs/intro"
             ]
           },
           {
-            "group": "Tools",
+            "group": "Quick Start",
             "pages": [
-              "tools/historical-room-viewer",
-              "tools/historical-profile-viewer",
-              "tools/time-tracker",
-              "tools/historical-avatar-outfit-viewer",
-              "tools/historical-avatar-name-viewer"
+              "docs/quick-start/overview-of-vuarchives",
+              "docs/quick-start/creating-an-account"
             ]
           },
           {
             "group": "Premium Tools",
             "pages": [
-              "premium-tools/product-extractor",
-              "premium-tools/private-room-scanner"
+              "docs/premium-tools/private-room-scanner"            
             ]
-          }
-        ]
-      },
-      {
-        "tab": "FAQ",
-        "groups": [
+          },
           {
-            "group": "Frequent Asked Questions",
+            "group": "Legal",
             "pages": [
-              "faq"
+              "docs/legal/terms-of-service",
+              "docs/legal/privacy-policy"
             ]
           }
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Community",
-          "href": "https://discord.gg/sDKpD4knJd",
-          "icon": "discord"
-        }
-      ]
+    ]
+  },
+  "redirects": [
+    {
+      "source": "/docs",
+      "destination": "/docs/intro"
+    },
+    {
+      "source": "/docs/",
+      "destination": "/docs/intro"
+    },
+    {
+      "source": "/docs/index",
+      "destination": "/docs/intro"
+    }
+  ],
+  "logo": {
+    "light": "/light.svg",
+    "dark": "/logo.webp",
+    "href": "https://vuarchives.com"
+  },
+  "background": {
+    "color": {
+      "light": "#ffffff",
+      "dark": "#111419"
     }
   },
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+  "api": {
+    "playground": {
+      "display": "simple"
+    }
   },
   "navbar": {
     "links": [
       {
-        "label": "Discord Server",
-        "href": "https://discord.gg/sDKpD4knJd"
+        "label": "Contact Us",
+        "href": "https://vuarchives.com/contact.php"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Home",
+      "label": "Homepage",
       "href": "https://vuarchives.com"
     }
   },
-  "footer": {
-    "socials": {
-      "website": "https://vuarchives.com",
-      "discord": "https://discord.gg/sDKpD4knJd"
-    }
+  "banner" : {
+    "content": "Don't worry more guides will be added soon!",
+    "dismissible": true 
   }
 }
