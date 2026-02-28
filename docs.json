@@ -119,6 +119,14 @@
   },
   "banner" : {
     "content": "Don't worry more guides will be added soon!",
-    "dismissible": true 
+    "dismissible": true
+  },
+  "seo": {
+    "indexing": "all",
+    "metatags": {
+      "og:type": "website",
+      "og:site_name": "Documentation",
+      "og:image": "/images/embed.png"
+    }
   }
 }
