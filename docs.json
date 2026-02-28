@@ -51,15 +51,22 @@
             ]
           },
           {
+            "group": "Historical Services",
+            "pages": [
+              "docs/historical-services/historical-room-viewer"            
+            ]
+          },
+          {
             "group": "Premium Tools",
             "pages": [
-              "docs/premium-tools/private-room-scanner"            
+              "docs/premium-tools/private-room-scanner",
+              "docs/premium-tools/auto-private-room-tracker"
             ]
           },
           {
             "group": "Legal",
             "pages": [
-              "docs/legal/terms-of-service",
+              "docs/legal/terms",
               "docs/legal/privacy-policy"
             ]
           }
@@ -84,7 +91,7 @@
   "logo": {
     "light": "/light.svg",
     "dark": "/logo.webp",
-    "href": "https://vuarchives.com"
+    "href": "https://docs.vuarchives.com"
   },
   "background": {
     "color": {
