@@ -125,7 +125,10 @@
   },
 "seo": {
     "metatags": {
+        "og:title": "VuArchives Documentation",
+        "og:description": "Whether you’re a new or an existing member of our platform, we’ve got you covered!",
         "og:image": "/images/embed.png",
+        "theme-color": "#8179FD",
         "canonical": "https://www.vuarchives.com"
     }
   }
