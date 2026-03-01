@@ -53,7 +53,9 @@
           {
             "group": "Historical Services",
             "pages": [
-              "docs/historical-services/historical-room-viewer"            
+              "docs/historical-services/historical-room-viewer",
+              "docs/historical-services/spouse-history",
+              "docs/historical-services/time-tracker"      
             ]
           },
           {
@@ -121,12 +123,10 @@
     "content": "Don't worry more guides will be added soon!",
     "dismissible": true
   },
-  "seo": {
-    "indexing": "all",
+"seo": {
     "metatags": {
-      "og:type": "website",
-      "og:site_name": "Documentation",
-      "og:image": "/images/embed.png"
+        "og:image": "/images/embed.png",
+        "canonical": "https://www.vuarchives.com"
     }
   }
 }

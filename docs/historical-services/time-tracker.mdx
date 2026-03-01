@@ -1,53 +1,26 @@
 ---
 title: Time Tracker
-description: Understanding Time Tracker
-icon: 'clock'
+sidebarTitle: Time Tracker
+mode: wide
+description: Automatically track and display time spent with other users and in rooms.
 ---
 
-## What is Time Tracker?
+![Time Tracker Examples](/images/time-tracker/time-tracker.png)
 
-Time Tracker feature allows you to see which users have spent the most time with a specific searched user. It also displays the rooms where users have spent the most time.
-<Frame caption="Time Tracker Table">
-  <img src="/images/Time Tracker/time-tracker.png" />
-</Frame>
+The Time Tracker is a tool designed to help users monitor the time spent interacting with various users and rooms, providing them with an idea of how actively they are engaging within those rooms.
 
-## Examples
-<Tabs>
-  <Tab title="Example 1">
-    <Columns cols={2}>
-      <Card title="Avatar Name: Bob">
-        Total Time Spent: 50:53:41
-      </Card>
-      <Card title="Room Name: Romance Beach House">
-        Total Time Spent: 25:23:48
-      </Card>
-      <Card title="Avatar Name: Andrew">
-        Total Time Spent: 02:16:01
-      </Card>
-      <Card title="Room Name: Starbucks Cafe">
-        Total Time Spent: 14:40:14
-      </Card>
-    </Columns>
-    For example, if you search for `John` in Time Tracker, the first result shows Bob, who has spent the most overall time with `John`. Secondly, you will see that `John` has also spent time with Andrew.
-    
-    VuArchives has shown us John has a soft spot for the Romance Beach House — he practically loves going to the beach I guess!
-  </Tab>
-  
-  <Tab title="Example 2">
-    <Columns cols={2}>
-      <Card title="Avatar Name: Sarah">
-        Total Time Spent: 40:12:30
-      </Card>
-      <Card title="Room Name: Mountain Cabin">
-        Total Time Spent: 30:45:20
-      </Card>
-      <Card title="Avatar Name: Michael">
-        Total Time Spent: 15:30:10
-      </Card>
-      <Card title="Room Name: City Park">
-        Total Time Spent: 22:10:05
-      </Card>
-    </Columns>
-    For example, if you search for `Jessica` in Time Tracker, the first result shows Sarah who has spent alot of time with `Jessica`. We can see that `Jessica` loves visiting Mountain Cabin and secondly City Park, Interesting indeed.
-  </Tab>
-</Tabs>
+This tool is often used by:
+<AccordionGroup>
+<Accordion title="Chill Space" defaultOpen="true" icon="people-roof">
+Users can identify their favorite rooms and hotspots for social interaction.
+</Accordion>
+
+<Accordion title="Favouritism" defaultOpen="true" icon="star">
+Analyzing the times of day when users spend the most time with specific individuals or in certain rooms.
+</Accordion>
+
+<Accordion title="Hiding Identity" defaultOpen="true" icon="eye-slash">
+Verifying whether someone is genuinely offline or spending time with another user instead.
+</Accordion>
+
+</AccordionGroup>
