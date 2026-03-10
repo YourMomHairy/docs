@@ -1,64 +1,100 @@
 ---
-title: Auto Private Room Tracker
-sidebarTitle: Auto Private Room Tracker
-mode: wide
-description:  24/7 monitoring of private rooms with automatic scanning
+title: "Auto Private Room Tracker"
+sidebarTitle: "Auto Private Room Tracker"
+mode: "wide"
+description: "24/7 monitoring of private rooms with automatic scanning"
 ---
 
 ![Private Room Scanner Examples](/images/auto-private-room-tracker_banner.png)
 
-This service is an automated version of the Private Room Scanner. It automatically scans user-owned private rooms every 5 to 10 minutes as long as the private room is active.
+The **Automated Private Room Scanner** enables the monitoring of private rooms that the user owns without the need to scan them manually. This feature will automatically scan active private rooms set up by the user at regular intervals of **5 to 10 minutes**.
 
+This feature is particularly useful for users who want to track private room activity without manually scanning. It allows the user to track the activity in the private room set up for the user they want to track. When the user they want to track has a private room active, the scanner will periodically scan the private room for:
+
+- Information about the users that entered the room
+- The outfits that the users were wearing when the scanner was active, including GA and AP.
+- Supports **3D room view**: view the full room and furniture. _(Note: due to IMVU limitations, you cannot see exactly where or what users have interacted with.)_
+
+**Important:** Scanning will only occur when the private room set up for the user being tracked is active. When the private room is not active, the scanner will not scan.
+
+---
+
+## Tracking Limits by Plan
+
+- **Basic Plan:** Can track 1 user
+- **Upgraded Plan:** Can track 2 users
+- **Pro Plan:** Can track 5 users
+- **Pro+ Plan:** Can track up to 10 users
+
+---
+
+## Key Features
+
+- Automatically scans the private room activity set up for the user
+- Scanning occurs regularly every **5 to 10 minutes** when the private room is active
+- Tracks the users that entered the private room
+- Tracks the outfits that the users were wearing when the scanner was active
+- No need to manually scan the private room
+- Tracking depends on the plan that the user is on
 
 <Tabs>
-  <Tab title="Owned Rooms" icon="crown">
-  Preview list of searched user owned private rooms
-  <Frame caption="Overview">
-  <img src="/images/premium-tools/auto-private-room-tracker/aprt1.png"/>
-  </Frame>
-  </Tab>
-
-  <Tab title="Timeline" icon="timeline">
-  Provide a basic essentials without complex analytics
-  <Frame caption="Overview">
-  <img src="/images/premium-tools/auto-private-room-tracker/aprt2.png"/>
-  </Frame>
-  **Detailed Breakdown**
-  
-<AccordionGroup>
-  <Accordion title="Room Visits">
-
-  **Definition**: This metric reflects the total number of visits a user has made into various rooms over the selected period.
-  
-  **How It Works**: Each time searched user enters a room, it counts as a visit regardless how many times user leaves and joins.
-
-  **Purpose**: Understanding the number of room visits can help you understand how frequently searched user are engaging in a private room and identifying patterns in their activities.
-  </Accordion>
-
-  <Accordion title="Unique Rooms">
-
-    **Definition**: This metric indicates the number of different rooms searched user has interacted within the timeframe.
-
-    **How It Works**: Each room is counted only once regardless of how many times you entered it. For instance, if you visit Room A and Room B, that counts as two unique rooms even if you visit Room A multiple times.
-  </Accordion>
-</AccordionGroup>
-
-  </Tab>
-
-  <Tab title="Statistics" icon="chart-line">
-  Complex analytics for you nerds 🤓
-  <Frame caption="Overview">
-  <img src="/images/premium-tools/auto-private-room-tracker/aprt4.png"/>
-  </Frame>
-  </Tab>
-
   <Tab title="Room History" icon="history">
-  Provides list of rooms searched user has entered in the past, Self explaintory. 🤷
-  <Frame caption="Overview">
-  <img src="/images/premium-tools/auto-private-room-tracker/aprt3.png"/>
-  </Frame>
-  </Tab>
+    Provides list of rooms searched user has entered in the past, Self explaintory. 🤷
 
+    <Frame caption="Overview">
+      ![](/images/premium-tools/auto-private-room-tracker/aprt3.png)
+    </Frame>
+  </Tab>
+  <Tab title="Owned Rooms" icon="crown">
+    Preview list of searched user owned private rooms
+
+    <Frame caption="Overview">
+      ![](/images/premium-tools/auto-private-room-tracker/aprt1.png)
+    </Frame>
+  </Tab>
+  <Tab title="Timeline" icon="timeline">
+    Provide a basic essentials without complex analytics
+
+    <Frame caption="Overview">
+      ![](/images/premium-tools/auto-private-room-tracker/aprt2.png)
+    </Frame>
+    **Detailed Breakdown**
+
+    <AccordionGroup>
+      <Accordion title="Room Visits">
+        **Definition**: This metric reflects the total number of visits a user has made into various rooms over the selected period.
+
+        **How It Works**: Each time searched user enters a room, it counts as a visit regardless how many times user leaves and joins.
+
+        **Purpose**: Understanding the number of room visits can help you understand how frequently searched user are engaging in a private room and identifying patterns in their activities.
+      </Accordion>
+      <Accordion title="Unique Rooms">
+        **Definition**: This metric indicates the number of different rooms searched user has interacted within the timeframe.
+
+        **How It Works**: Each room is counted only once regardless of how many times you entered it. For instance, if you visit Room A and Room B, that counts as two unique rooms even if you visit Room A multiple times.
+      </Accordion>
+    </AccordionGroup>
+  </Tab>
+  <Tab title="Statistics" icon="chart-line">
+    Complex analytics for you nerds 🤓
+
+    <Frame caption="Overview">
+      ![](/images/premium-tools/auto-private-room-tracker/aprt4.png)
+    </Frame>
+  </Tab>
+  <Tab title="3D Room View" icon="camera-cctv">
+    This feature, named 3D Private Room Viewer, enables you to view private rooms in an interactive way. The 3D Private Room Viewer rebuilds the layout of the private room based on the scan data, enabling you to explore the private room visually.
+
+    This feature enables you to review private rooms in a more visual way, as opposed to viewing lists of user information or activity data.
+
+    Limitation: Due to VU platform limitations, it is not possible to show the positions of the users in the private room.
+
+    <Frame>
+      ![3D Room Viewer](/images/3D-room-viewer.png)
+    </Frame>
+  </Tab>
 </Tabs>
 
-<Note>If Alwin invites GaleDevon, searching for Alwin will display the room they are currently in. However, if GaleDevon changes rooms, the displayed room for Alwin remains unchanged. Alwin will still be shown as being in a private room but it won't reflect the correct room until you also search for GaleDevon instead. This is unfortunately how vu operates.</Note> 
+<Note>
+  If Alwin invites GaleDevon, searching for Alwin will display the room they are currently in. However, if GaleDevon changes rooms, the displayed room for Alwin remains unchanged. Alwin will still be shown as being in a private room but it won't reflect the correct room until you also search for GaleDevon instead. This is unfortunately how vu operates.
+</Note>
