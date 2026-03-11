@@ -47,7 +47,7 @@
             "group": "Quick Start",
             "pages": [
               "docs/quick-start/overview-of-vuarchives",
-              "docs/quick-start/creating-an-account",
+              "docs/quick-start/account-creation",
               "docs/quick-start/pricing-comparsion"
             ]
           },
