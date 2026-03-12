@@ -48,6 +48,7 @@
             "pages": [
               "docs/quick-start/overview-of-vuarchives",
               "docs/quick-start/account-creation",
+              "docs/quick-start/account-deletion",
               "docs/quick-start/pricing-comparsion"
             ]
           },
