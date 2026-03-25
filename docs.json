@@ -47,8 +47,6 @@
             "group": "Quick Start",
             "pages": [
               "docs/quick-start/overview-of-vuarchives",
-              "docs/quick-start/account-creation",
-              "docs/quick-start/account-deletion",
               "docs/quick-start/pricing-comparsion"
             ]
           },
@@ -64,7 +62,16 @@
             "group": "Premium Tools",
             "pages": [
               "docs/premium-tools/private-room-scanner",
-              "docs/premium-tools/auto-private-room-tracker"
+              "docs/premium-tools/auto-private-room-tracker",
+              "docs/premium-tools/product-extractor"
+            ]
+          },
+          {
+            "group": "How 2 Guide",
+            "pages": [
+              "docs/how2guide/account-creation",
+              "docs/how2guide/account-deletion",
+              "docs/how2guide/webhooks"
             ]
           },
           {
