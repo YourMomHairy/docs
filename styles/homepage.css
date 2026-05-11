@@ -2,7 +2,7 @@
     display: grid;
 
     margin: -1rem auto 1.5rem auto;
-    background-image: url(/images/blank.png);
+    background-image: url(/images/homepage-banner.png);
     background-size: cover;
     background-position: center;
     grid-area: 1/1;

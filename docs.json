@@ -14,7 +14,7 @@
     "codeblocks": "system",
     "eyebrows": "breadcrumbs"
   },
-  "favicon": "/logo.webp",
+  "favicon": "/dark-theme-logo.webp",
   "errors": {
     "404": {
       "redirect": false
@@ -102,8 +102,8 @@
     }
   ],
   "logo": {
-    "light": "/light.svg",
-    "dark": "/logo.webp",
+    "light": "/light-theme-logo.webp",
+    "dark": "/dark-theme-logo.webp",
     "href": "https://docs.vuarchives.com"
   },
   "background": {
