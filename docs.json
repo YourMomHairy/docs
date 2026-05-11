@@ -55,7 +55,8 @@
             "pages": [
               "docs/historical-services/historical-room-viewer",
               "docs/historical-services/spouse-history",
-              "docs/historical-services/time-tracker"      
+              "docs/historical-services/time-tracker"
+
             ]
           },
           {
@@ -63,7 +64,8 @@
             "pages": [
               "docs/premium-tools/private-room-scanner",
               "docs/premium-tools/auto-private-room-tracker",
-              "docs/premium-tools/product-extractor"
+              "docs/premium-tools/product-extractor",
+              "docs/premium-tools/pose-maker"            
             ]
           },
           {
